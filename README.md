@@ -1,4 +1,0 @@
-Maestro
-=======
-
-first app
