@@ -11,6 +11,14 @@ html, body {
 
 body {
   margin: 80px 0; }
+  
+.footer {
+               /* width: 188px; */
+		width: 265px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		}
 
 .heading:after {
   content: "";
