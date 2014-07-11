@@ -1,8 +1,10 @@
 @import url(fonts/clear-sans.css);
 html, body {
   margin: 0;
-  padding: 0;
-  background: #69FEFE;
+  padding: 0; 
+  /*background-color: #69FEFE;*/
+  background: url('../Images/background.jpg') center center no-repeat; 
+  background-size: cover;
   color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
@@ -53,7 +55,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #69978D;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -72,7 +74,7 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
+    color: #4E0812; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
@@ -299,13 +301,12 @@ hr {
   /* lol !important */  
   .tile-inner { background-position: center center !important; background-size: cover !important; background-repeat: no-repeat !important; }    
   
-  .thisistext, p, a, h1 { color: #776e65; }
+  .thisistext, p, a, h1 { color: #AF230A;}
   .game-container { background-color: #3685a2 }
   .preload, .preload img { position: absolute; top: -100px; -left: 100px; width: 1px; height: 1px; overflow: hidden; }  
    #fix { 
-         position: absolute; top: 0; left: 0; width: 100%; height: 100%; position: fixed; z-index: -1000; 
-         background: url('../Images/background.jpe g') center center no-repeat; 
-         background-size: cover; }
+         position: absolute; top: 0; left: 0; width: 100%; height: 100%; position: fixed; z-index: -1000;
+          }
 .tile-text {
     display:inline-block;
     vertical-align: middle;
@@ -508,11 +509,11 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: #B9B63C;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-  color: #f9f6f2;
+  color: #563811;
   height: 40px;
   line-height: 42px;
   display: block;
