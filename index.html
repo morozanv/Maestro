@@ -24,7 +24,7 @@
 		margin-right: auto;
 		text-align: center;
 		}
-	.fb-share-button {
+	.fb-root {
 		display: inline-block;
 		position: relative;
 		}
@@ -98,18 +98,18 @@
     <div class="footer">
     
     <!-- Facebook like -->
-    <div class="fb-share-button" data-href="http://morozanv.github.io/clone-2048/"></div>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+		 var js, fjs = d.getElementsByTagName(s)[0];
+		 if (d.getElementById(id)) return;
+		 js = d.createElement(s); js.id = id;
+		 js.src = "//connect.facebook.net/ro_RO/sdk.js#xfbml=1&version=v2.0";
+		 fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
      <!-- Google 1+ -->
     <div class="g-person" data-width="195" data-href="//plus.google.com/u/0/106707412659549307082" data-theme="dark" data-rel="author"></div>
     </div>
-    <div id="fb-root"></div>
-<script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/ro_RO/sdk.js#xfbml=1&version=v2.0";
-      fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
+ 
    
   <script src="js/google_like.js"></script>
   <script src="js/bind_polyfill.js"></script> 
