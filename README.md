@@ -3,11 +3,9 @@ Acest site este o clonă a versiunii oficiale [1024](https://play.google.com/sto
 
 [Joaca aici!](http://morozanv.github.io/clone-2048/)
 
-### Screenshot
+### Screen 
 
-<p align="center">
-  <img src="https://dl.dropboxusercontent.com/u/89891493/web%20images/2048.png" alt="Screenshot"/>
-</p>
+![Screen Game](/Images/screen_2048.png)
 
 That screenshot is fake, by the way. I never reached 2048 :smile:
 
