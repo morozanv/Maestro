@@ -1,13 +1,12 @@
 # 2048
-Acest site este o clonă a versiunii oficiale [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), Bazat pe [Saming's 2048](http://saming.fr/p/2048/) (deasemenea o clona).
+This site is a clone of the official version [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), Based on [Saming's 2048](http://saming.fr/p/2048/) (also a clone).
 
-[Joaca aici!](http://morozanv.github.io/clone-2048/)
+[Play here!](http://morozanv.github.io/clone-2048/)
 
 ### Screen 
 
 ![Screen Game](/Images/screen_2048.png)
 
-That screenshot is fake, by the way. I never reached 2048 :smile:
 
 ## Contributing
 Changes and improvements are more than welcome! Feel free to fork and open a pull request. Please make your changes in a specific branch and request to pull into `master`! If you can, please make sure the game fully works before sending the PR, as that will help speed up the process.
